@@ -5,10 +5,20 @@
 //  Created by Muhammad Talal on 2022-06-16.
 //
 
-#include <iostream>
+/*
+ * Overview
+ 
+ * Conditional statment if-else/switch.
+ 
+ 
+ */
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
-}
+/*
+ * Programs to write
+ 
+ * Check to see if the denominator is 0.
+ * Check if the hour input is a working hour or a leisure hour.
+ * Check to see if you're eligible for a dicount offer -- only children and elders are eligible.
+ * Check to see if the Nature of quadratic roots are Real(equal/unequal) or imaginary.
+ 
+ */
