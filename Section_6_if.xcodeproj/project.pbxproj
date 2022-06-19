@@ -12,6 +12,7 @@
 		DD1E27B0285C1C49006E0F08 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD1E27AF285C1C49006E0F08 /* main.cpp */; };
 		DD1E27BB285C1ED6006E0F08 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD1E27BA285C1ED6006E0F08 /* main.cpp */; };
 		DD1E27C6285C23CF006E0F08 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD1E27C5285C23CF006E0F08 /* main.cpp */; };
+		DDB485F4285F94A70053734F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDB485F3285F94A70053734F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +61,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		DDB485EF285F94A70053734F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +83,8 @@
 		DD1E27BA285C1ED6006E0F08 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DD1E27C3285C23CF006E0F08 /* Nature_of_Roots */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Nature_of_Roots; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD1E27C5285C23CF006E0F08 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DDB485F1285F94A70053734F /* switch_calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = switch_calculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB485F3285F94A70053734F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DDB485EE285F94A70053734F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -122,6 +141,7 @@
 				DD1E27AE285C1C49006E0F08 /* Lesiure_Hours */,
 				DD1E27B9285C1ED6006E0F08 /* Offer_Child_Old */,
 				DD1E27C4285C23CF006E0F08 /* Nature_of_Roots */,
+				DDB485F2285F94A70053734F /* switch_calculator */,
 				DD1E2795285C18FB006E0F08 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,6 +154,7 @@
 				DD1E27AD285C1C49006E0F08 /* Lesiure_Hours */,
 				DD1E27B8285C1ED6006E0F08 /* Offer_Child_Old */,
 				DD1E27C3285C23CF006E0F08 /* Nature_of_Roots */,
+				DDB485F1285F94A70053734F /* switch_calculator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,6 +197,14 @@
 				DD1E27C5285C23CF006E0F08 /* main.cpp */,
 			);
 			path = Nature_of_Roots;
+			sourceTree = "<group>";
+		};
+		DDB485F2285F94A70053734F /* switch_calculator */ = {
+			isa = PBXGroup;
+			children = (
+				DDB485F3285F94A70053734F /* main.cpp */,
+			);
+			path = switch_calculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +295,23 @@
 			productReference = DD1E27C3285C23CF006E0F08 /* Nature_of_Roots */;
 			productType = "com.apple.product-type.tool";
 		};
+		DDB485F0285F94A70053734F /* switch_calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB485F7285F94A70053734F /* Build configuration list for PBXNativeTarget "switch_calculator" */;
+			buildPhases = (
+				DDB485ED285F94A70053734F /* Sources */,
+				DDB485EE285F94A70053734F /* Frameworks */,
+				DDB485EF285F94A70053734F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = switch_calculator;
+			productName = switch_calculator;
+			productReference = DDB485F1285F94A70053734F /* switch_calculator */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -290,6 +336,9 @@
 					DD1E27C2285C23CF006E0F08 = {
 						CreatedOnToolsVersion = 13.0;
 					};
+					DDB485F0285F94A70053734F = {
+						CreatedOnToolsVersion = 13.0;
+					};
 				};
 			};
 			buildConfigurationList = DD1E278F285C18FB006E0F08 /* Build configuration list for PBXProject "Section_6_if" */;
@@ -310,6 +359,7 @@
 				DD1E27AC285C1C49006E0F08 /* Lesiure_Hours */,
 				DD1E27B7285C1ED6006E0F08 /* Offer_Child_Old */,
 				DD1E27C2285C23CF006E0F08 /* Nature_of_Roots */,
+				DDB485F0285F94A70053734F /* switch_calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -352,6 +402,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD1E27C6285C23CF006E0F08 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB485ED285F94A70053734F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB485F4285F94A70053734F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +607,22 @@
 			};
 			name = Release;
 		};
+		DDB485F5285F94A70053734F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDB485F6285F94A70053734F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -602,6 +676,15 @@
 			buildConfigurations = (
 				DD1E27C8285C23CF006E0F08 /* Debug */,
 				DD1E27C9285C23CF006E0F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB485F7285F94A70053734F /* Build configuration list for PBXNativeTarget "switch_calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB485F5285F94A70053734F /* Debug */,
+				DDB485F6285F94A70053734F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
